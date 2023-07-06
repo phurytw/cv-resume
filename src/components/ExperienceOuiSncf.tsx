@@ -1,4 +1,6 @@
+import { BsHandIndexThumb } from "react-icons/bs";
 import Experience from "./Experience";
+import HL from "./HL";
 import Project from "./Project";
 
 export default function ExperienceOuiSncf() {
@@ -14,26 +16,13 @@ export default function ExperienceOuiSncf() {
           <li className="my-1">
             Interface de chat créée from scratch qui dialogue avec le chatbot
             OUI.sncf avec des composants custom in-chat développée avec{" "}
-            <strong>React</strong>, JavaScript ES6/<strong>TypeScript</strong>{" "}
-            (migration), Recompose, Webpack, Sass, GSAP, <strong>Jest</strong>,
+            <HL>React</HL>, JavaScript ES6/<HL>TypeScript</HL>{" "}
+            (migration), Recompose, Webpack, Sass, GSAP, API Rest, <HL>Jest</HL>,
             Enzyme
           </li>
           <li className="my-1">
-            Chatbot conversationnel qui intègre le machine learning et le NLP
-            développé avec Kotlin, vert.x, JUnit 5, MockK, MongoDB, KMongo
-          </li>
-          <li className="my-1">Prix du Best Robot Experience 2018 et 2019</li>
-        </ul>
-      </Project>
-      <Project description="Développement de tock-react-kit, une librairie open source permettant de créer des interfaces pour chatbots">
-        <ul className="list-disc">
-          <li className="my-1">
-            Librairie utilisée dans multiples projets tel que Mon Assistant TVG
-            INOUI
-          </li>
-          <li className="my-1">
-            Développement avec <strong>React</strong>, Rollup,{" "}
-            <strong>Emotion JS (styled components)</strong>
+            Chatbot conversationnel disponible sur divers canaux (web, whatsapp, messenger, etc.) qui intègre le machine learning et le NLP
+            développé avec <HL>Kotlin</HL>, vert.x, JUnit 5, MockK, MongoDB, KMongo
           </li>
         </ul>
       </Project>

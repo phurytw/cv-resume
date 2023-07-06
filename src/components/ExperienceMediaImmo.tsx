@@ -1,4 +1,5 @@
 import Experience from "./Experience";
+import HL from "./HL";
 import Project from "./Project";
 
 export default function ExperienceMediaImmo() {
@@ -17,10 +18,16 @@ export default function ExperienceMediaImmo() {
           </li>
           <li className="my-1">
             Développement avec PHP, MySQL, jQuery, OpenStreetMaps,{" "}
-            <strong>AngularJS</strong>
+            <HL>AngularJS</HL>
           </li>
           <li className="my-1">
             Gestion de serveurs de cartographies tels que GeoServer et MapServer
+          </li>
+          <li className="my-1">
+            Génération automatique de PDF (factures, documents pour diagnostiqueurs immobiliers)
+          </li>
+          <li className="my-1">
+            Développement d'une interface back-office permettant de gérer les initiatives marketing (messagerie, gestion utilisateurs, abonnements, code promos, réductions, etc.)
           </li>
         </ul>
       </Project>
