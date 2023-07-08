@@ -23,7 +23,7 @@ export default function ExperienceDailymotion() {
             Méthodologie Shape Up
           </li>
           <li className="my-1">
-            Refonte de la page d'acceuil avec intégration des sondages utilisateurs et de la page vidéo à l'occasion du rebranding Dailymotion
+            Refonte de la page d'accueil avec intégration des sondages utilisateurs et de la page vidéo à l'occasion du rebranding Dailymotion
           </li>
           <li className="my-1">
             Mise en conformité RGPD avec <HL>IAB TCF</HL>, et autre lois internationales telles que COPPA
@@ -41,7 +41,7 @@ export default function ExperienceDailymotion() {
             Migration progressive vers <HL>TypeScript</HL>
           </li>
           <li className="my-1">
-            Mise en place et execution des A/B tests
+            Mise en place et exécution des A/B tests
           </li>
           <li className="my-1">
             Tracking analytique des actions utilisateurs
