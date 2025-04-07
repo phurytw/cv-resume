@@ -25,7 +25,7 @@ export default function Experience({ company, role, location, children, startDat
     return `${gapRemaining} mois`
   }
 
-  return <div className="my-4">
+  return <div className="my-8">
     <h5 className="text-xl font-bold">{company}</h5>
     <h6 className="text-lg font-semibold mb-2">{role && `${role} / `}{startDate.getFullYear()}-{endDate?.getFullYear() || 'Présent'} ({renderGap()})</h6>
     {children}

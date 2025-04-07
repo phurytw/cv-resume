@@ -15,7 +15,7 @@ import Title from "./components/Title";
 
 function App() {
   return (
-    <div className="w-[816px] h-[1056px] overflow-hidden">
+    <div className="w-[800px] aspect-[1/1.4142] overflow-hidden">
       <div className="flex">
         <main className="w-4/6">
           <div className="flex">
@@ -32,7 +32,7 @@ function App() {
             <ExperienceMediaImmo />
           </MainSection>
         </main>
-        <aside className="w-2/6 p-4 h-[1056px] bg-gradient-to-r from-cyan-700 to-blue-800 text-white flex flex-col items-center">
+        <aside className="w-2/6 p-4 h-full bg-gradient-to-r from-cyan-700 to-blue-800 text-white flex flex-col items-center">
           <SideSection title="Contact">
             <Contact />
           </SideSection>

@@ -11,7 +11,7 @@ export default function ExperienceUbisoft() {
       <Project description="Développement du site Eden Online pour l'IP Captain Laserhawk">
         <ul className="list-disc">
           <li className="my-1">
-            Développement d'un hub et d'expériences web pour l'IP Captain
+            Développement d'expériences web from scratch pour l'IP Captain
             Laserhawk et Champions Tactics avec <strong>React</strong>,{" "}
             <strong>NextJS (App Router)</strong>, <strong>TypeScript</strong>,{" "}
             <strong>React Query</strong>, <strong>TailwindCSS</strong>,{" "}
