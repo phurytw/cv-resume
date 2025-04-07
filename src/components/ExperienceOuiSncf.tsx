@@ -16,7 +16,7 @@ export default function ExperienceOuiSncf() {
             OUI.sncf avec des composants custom in-chat développée avec{" "}
             <strong>React</strong>, JavaScript ES6/<strong>TypeScript</strong>{" "}
             (migration), Recompose, Webpack, Sass, GSAP, <strong>Jest</strong>,
-            Enzyme
+            Enzyme.
           </li>
           <li className="my-1">
             Chatbot conversationnel qui intègre le machine learning et le NLP

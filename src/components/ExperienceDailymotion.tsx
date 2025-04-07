@@ -7,6 +7,7 @@ export default function ExperienceDailymotion() {
       company="Dailymotion"
       role="Développeur Frontend Senior"
       startDate={new Date("2020-08-03")}
+      endDate={new Date("2023-06-30")}
     >
       <Project description="Développement et maintenance du site B2C Dailymotion.com">
         <ul className="list-disc">
