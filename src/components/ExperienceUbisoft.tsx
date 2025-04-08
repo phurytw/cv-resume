@@ -4,7 +4,7 @@ import Project from "./Project";
 export default function ExperienceUbisoft() {
   return (
     <Experience
-      company="Ubisoft"
+      company="Ubisoft (https://edenonline.ubisoft.com)"
       role="Développeur Frontend Senior"
       startDate={new Date("2023-08-28")}
     >

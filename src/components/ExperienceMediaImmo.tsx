@@ -4,7 +4,7 @@ import Project from "./Project";
 export default function ExperienceMediaImmo() {
   return (
     <Experience
-      company="Media Immo"
+      company="Media Immo (https://ere-pro.com)"
       role="Développeur Fullstack"
       startDate={new Date("2013-06-03")}
       endDate={new Date("2016-09-15")}

@@ -4,7 +4,7 @@ import Project from "./Project";
 export default function ExperienceDailymotion() {
   return (
     <Experience
-      company="Dailymotion"
+      company="Dailymotion (https://dailymotion.com)"
       role="Développeur Frontend Senior"
       startDate={new Date("2020-08-03")}
       endDate={new Date("2023-06-30")}

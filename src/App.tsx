@@ -2,6 +2,7 @@ import Avatar from "./components/Avatar";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import ExperienceDailymotion from "./components/ExperienceDailymotion";
+import ExperienceKaizeneko from "./components/ExperienceKaizeneko";
 import ExperienceMediaImmo from "./components/ExperienceMediaImmo";
 import ExperienceOuiSncf from "./components/ExperienceOuiSncf";
 import ExperienceUbisoft from "./components/ExperienceUbisoft";
@@ -12,7 +13,6 @@ import Name from "./components/Name";
 import SideSection from "./components/SideSection";
 import { Skills } from "./components/Skills";
 import Title from "./components/Title";
-
 function App() {
   return (
     <div className="w-[800px] aspect-[1/1.4142] overflow-hidden">
@@ -27,6 +27,7 @@ function App() {
           </div>
           <MainSection title="Expérience professionnelle">
             <ExperienceUbisoft />
+            <ExperienceKaizeneko />
             <ExperienceDailymotion />
             <ExperienceOuiSncf />
             <ExperienceMediaImmo />
